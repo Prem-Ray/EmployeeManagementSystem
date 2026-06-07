@@ -1,0 +1,31 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Maven ###
+target/
+
+### Logs ###
+*.log
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Environment Variables ###
+.env
+
+### Spring Boot ###
+application-local.properties
+application-local.yml
+
+### Generated Files ###
+out/
+
+### Java ###
+*.class
+
+### Temporary Files ###
+*.tmp
