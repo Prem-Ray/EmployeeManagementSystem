@@ -19,12 +19,10 @@ public class GlobalResponseHandler implements ResponseBodyAdvice<Object> {
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType,
                                    Class<? extends HttpMessageConverter<?>> selectedConverterType,
                                    ServerHttpRequest request, ServerHttpResponse response) {
-        // If body is already an ApiResponse (e.g., error response), don't wrap it again
         if (body instanceof ApiResponse<?>) {
             return body;
         }
 
-        // Wrap successful responses in ApiResponse
         return new ApiResponse<>(body);
     }
 
