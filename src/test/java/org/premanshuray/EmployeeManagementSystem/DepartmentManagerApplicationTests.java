@@ -1,4 +1,4 @@
-package org.premanshuray.departmentmanager;
+package org.premanshuray.EmployeeMangementSystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

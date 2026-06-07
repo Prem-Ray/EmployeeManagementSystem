@@ -1,13 +1,13 @@
-package org.premanshuray.departmentmanager;
+package org.premanshuray.EmployeeMangementSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DepartmentManagerApplication {
+public class EmployeeMangementSystem {
 
     public static void main(String[] args) {
-        SpringApplication.run(DepartmentManagerApplication.class, args);
+        SpringApplication.run(EmployeeMangementSystem.class, args);
     }
 
 }
